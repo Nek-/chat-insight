@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "removeComments": true,
+        "sourceMap": true,
+        "allowJs": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "moduleResolution": "node",
+
+        // Allow to initialize via method inside constructor
+        "strictPropertyInitialization": false,
+    }
+}

@@ -1,0 +1,40 @@
+span.sender{
+  font-weight:bold;
+}
+
+span.hour {
+  margin-left: 10px;
+  font-style: italic;
+}
+
+div.header{
+  background-color: #b5b5b5
+}
+
+div.message {
+  max-width: 30%;
+  background-color: #fd3;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+p.content {
+  height: 100%;
+}
+
+div.message.mine {
+  background-color: #ff6d22;
+  float: right;
+}
+
+div.message:not(.mine) {
+  float: left;
+}
+
+
+div.container{
+  width: 100%;
+}

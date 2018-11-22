@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="message" [ngClass]="{'mine': isMine}">
+    <div class="header">
+      <span class="sender">{{message.nickname}}</span>
+      <span class="hour">{{message.hour}}</span>
+    </div>
+
+    <p class="content">
+      {{message.content}}
+    </p>
+  </div>
+</div>

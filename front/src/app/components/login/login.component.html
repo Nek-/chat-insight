@@ -1,0 +1,21 @@
+
+<form [formGroup]="form" (ngSubmit)="submit()" novalidate>
+  <p>Pas de triches ;)</p>
+
+  <div>
+    <span>Ton pti prénom + la première lettre de ton nom le tout collé <3</span>
+    <input type="text" formControlName="name">
+  </div>
+
+  <div>
+    <span>Ton jour de naissance</span>
+    <input type="number" formControlName="day">
+  </div>
+
+  <div>
+    <span>Ton mois de naissance</span>
+    <input type="number" formControlName="month">
+  </div>
+
+  <button type="submit">Gooooooo</button>
+</form>

@@ -1,0 +1,9 @@
+<h2>Les messages</h2>
+<div class="container">
+  <div #message></div>
+</div>
+
+<form [formGroup]="form" (ngSubmit)="submit()" novalidate>
+  <input type="text" formControlName="message">
+  <button type="submit">Envoyer !</button>
+</form>
